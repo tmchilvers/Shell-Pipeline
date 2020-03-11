@@ -9,11 +9,11 @@
 *   ID: 2288893
 *   Email: chilvers@chapman.edu
 *
-*   This program will take two files as arguments and concatenate the data from
-*   the first file (input) into the second file (output).
+*   This program will fork and create a pipe to take an input command
+*   from the parent process and call the command in the child process
 *
 *   References: geeksforgeeks.com regarding general standard functions
-*								Built off of the example unix_pipe.c file
+*		Built off of the example unix_pipe.c file
 *
 */
 
